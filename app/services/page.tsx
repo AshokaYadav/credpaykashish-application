@@ -1,29 +1,8 @@
 import FeaturesGrid from "@/component/FeaturesGrid";
-import Image from "next/image";
 import { FC } from "react";
-import { AiOutlineShoppingCart } from "react-icons/ai";
-import { FaRupeeSign } from "react-icons/fa";
-import {
-  FaBolt,
-  FaTv,
-  FaGlobe,
-  FaMobileAlt,
-  FaFileInvoice,
-  FaShieldAlt,
-  FaTicketAlt,
-  FaStore,
-  FaPlus,
-} from "react-icons/fa";
 
 const HeroSection: FC = () => {
-  const features = [
-    "Feature 1",
-    "Feature 2",
-    "Feature 3",
-    "Feature 4",
-    "Feature 5",
-    "Feature 6",
-  ];
+  
 
   return (
     <>

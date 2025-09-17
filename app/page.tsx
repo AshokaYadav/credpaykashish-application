@@ -1,4 +1,4 @@
-import Footer from "@/component/Footer";
+
 import Image from "next/image";
 import { FC } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -186,7 +186,7 @@ const HeroSection: FC = () => {
           <h2 className="text-2xl font-bold mb-4">Do it all at one place.</h2>
           <p className="text-gray-600 mb-4">
             KredPay can be used for paying utility bills from in-stores and
-            online. Or paying EMIs bills at the last moments night's dinner can
+            online. Or paying EMIs bills at the last moments night dinner can
             cover this morning latte.
           </p>
           <p className="text-gray-600 mb-4">

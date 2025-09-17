@@ -14,13 +14,15 @@ export default function Header() {
   ]
 
   return (
-    <header className="w-full flex justify-center pt-6  absolute z-50">
-      <div className="flex items-center justify-between w-[90%] max-w-7xl bg-gray-100 rounded-full px-8 py-3 shadow">
+    <header className="w-full flex justify-center fixed top-8 z-50">
+      <div className="flex items-center justify-between w-[90%] max-w-7xl 
+                      bg-white/30 backdrop-blur-md border border-white/20 
+                      rounded-full px-8 py-3 shadow">
         
         {/* Left - Logo */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 rounded-full">
           <Image
-            src="/load.jpg"      // ← apna logo path daal dena
+            src="/load1.png"
             alt="KredPay Logo"
             width={120}
             height={40}
@@ -33,7 +35,7 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className={`text-gray-600 hover:text-gray-900 transition text-sm 
+              className={`text-gray-700 hover:text-gray-900 transition text-sm 
                 ${pathname === item.href ? 'font-semibold text-gray-900' : ''}`}
             >
               {item.name}

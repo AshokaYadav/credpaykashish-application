@@ -1,3 +1,4 @@
+import FeatrueGrid1 from "@/component/FeatrueGrid1";
 import FeaturesGrid from "@/component/FeaturesGrid";
 
 import { FC } from "react";
@@ -33,7 +34,7 @@ const HeroSection: FC = () => {
           </p>
         </div>
       </section>
- <FeaturesGrid/>
+ <FeatrueGrid1/>
      
      
       

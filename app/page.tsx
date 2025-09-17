@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { FC } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -86,9 +85,21 @@ const HeroSection: FC = () => {
               special with KredPay.
             </p>
 
-            <button className="mt-8 w-fit px-6 py-3 border border-green-600 text-green-700 rounded-full font-semibold hover:bg-green-600 hover:text-white transition duration-300">
+            {/* <button className="mt-8 w-fit px-6 py-3 border border-green-600 text-green-700 rounded-full font-semibold hover:bg-green-600 hover:text-white transition duration-300">
               Learn more
-            </button>
+            </button> */}
+
+             {/* Stylish Button */}
+      <button
+        className="relative w-fit inline-block mt-8 px-6 py-3 text-black font-medium rounded-full
+                   border border-gray-300 bg-white overflow-hidden"
+      >
+        <span
+          className="absolute inset-0 rounded-full translate-x-1 translate-y-1
+          bg-green-500 -z-0"
+        ></span>
+          <span className="relative z-10" >Learn more</span>
+      </button>
           </div>
 
           <div className="flex justify-center items-center gap-x-60">
@@ -314,8 +325,6 @@ const HeroSection: FC = () => {
           </button>
         </div>
       </div>
-
-      
     </>
   );
 };

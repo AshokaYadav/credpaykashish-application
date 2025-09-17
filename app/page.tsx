@@ -1,3 +1,4 @@
+import FeaturesGrid from "@/component/FeaturesGrid";
 import Image from "next/image";
 import { FC } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
@@ -258,6 +259,8 @@ const HeroSection: FC = () => {
           </div>
         </div>
       </div>
+
+      <FeaturesGrid/>
 
       <div className="relative flex flex-col md:flex-row items-center justify-center max-w-6xl mx-auto  mt-30 gap-10 px-4">
         {/* Left Image (upper) */}

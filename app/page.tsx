@@ -55,7 +55,7 @@ const HeroSection: FC = () => {
         {/* Image Section */}
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 z-20">
           <Image
-            src="/image 6.png" // ✅ Dashboard image
+            src="/image6.png" // ✅ Dashboard image
             alt="Dashboard"
             width={800}
             height={500}
